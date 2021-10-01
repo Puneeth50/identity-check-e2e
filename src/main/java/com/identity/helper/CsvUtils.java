@@ -22,8 +22,10 @@ public class CsvUtils {
 
 
     /**
-     * @param dirName path of the directory
-     * @return list of vehicle registrations details from the files in dir
+     * Gets vehicle details from the files in output directory
+     *
+     * @param dirName
+     * @return VehicleDetails List
      */
 
     public static List<VehicleDetails> getVehicleDetails(String dirName) {
@@ -56,8 +58,10 @@ public class CsvUtils {
     }
 
     /**
-     * @param dirName directory Name
-     * @return list of vehicle registrations from the files in dir based on matching regex
+     * Gets vehicle reg from the files in input directory based on matching regex
+     *
+     * @param dirName
+     * @return list
      */
     public static List<String> getVehicleRegs(String dirName) {
 
